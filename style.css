@@ -1,0 +1,156 @@
+
+
+#bigLogo{
+  display: flex;
+  padding: 20px;
+  max-height: 50px;
+  padding-top: 10px;
+  align-items: center;
+  display: inline-block;
+  background-color: transparent;}
+  
+
+#leftHeader {
+display: flex;
+align-self: flex-start;
+} 
+
+#starwarsKids {
+  height: 4em;
+  text-decoration: none;
+  color: #999;
+  font: Helvetica, Arial, sans-serif;
+}
+
+#rightHeader {
+ align: null;
+  } 
+
+#socialLogos i{
+height: 4em;
+color:#999;
+padding-left: 10px;
+}
+
+
+#userAccess {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  padding: 0px;
+  text-decoration: none;
+  color: #999;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #999;
+  text-decoration: none;
+}
+
+#navbar{
+  display: flex;
+  flex-direction: row;
+  color: #999;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav_links {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        justify-content: center;
+        margin: 20px;
+        border: 15px;
+        border-color: #999;
+        width: 80vw;
+        color: #999;
+      	background: transparent;
+	      height: 34px;
+        padding-top: 20px;
+	      padding-left: 10px;
+        padding-right: 10px;
+	      border-radius: 0px;
+	      border: 2px solid #999999;
+}
+#nav_links ul, .navlinks li {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+#nav_links label {
+	display: none;
+	line-height: 20px;
+	text-align: center;
+	position: absolute;
+	left: 5px
+}
+
+#nav_links li a:hover {
+	color: white;
+	background: #000000;
+}
+#nav_links li a{
+  padding: 10px;
+  text-decoration: none;
+  color: #999;
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+
+body{
+  background-image: url("https://lumiere-a.akamaihd.net/v1/images/background-stars-desktop_00cbf8a9.jpeg");
+  margin: auto;
+  text-align: center;
+  width: 100vw
+}
+
+
+#titleText2 {
+  height: 1em;
+  font-size: 0.8em; 
+  padding-bottom: 1em;
+  color:#999;
+  text-decoration: none;
+  font-style: normal;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.center_col {
+  display: flex;
+}
+
+.mural {
+  object-fit: cover;
+  z-index: -1;
+}
+.mural2 {
+  display: flex;
+  align-self:center;
+  position: relative;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: 500px;
+  z-index: 1;
+}
+
+.belowFoldMay a{
+  height: 4em;
+  text-decoration: none;
+  color: #999;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 600px;
+}
+
+.yellowButton{
+  display: inline-block;
+  background-color:#FFE400;
+    color:#000;
+      border-color: transparent
+}
+
